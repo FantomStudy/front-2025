@@ -1,0 +1,32 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 15px;
+}
+.title {
+  font-size: clamp(32px, 3.5vw, 48px);
+}
+.form_container {
+  display: flex;
+  justify-content: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 15px;
+}
+.input[type="file"] {
+  width: 100%;
+  cursor: pointer;
+  padding: 25px;
+  border: 3px dashed var(--color-600);
+  box-sizing: border-box;
+}
+.fake_sign {
+  opacity: 60%;
+  font-size: 18px;
+}
+.head_wrapper {
+  display: flex;
+  justify-content: end;
+}
